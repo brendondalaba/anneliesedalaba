@@ -251,7 +251,7 @@ If you’d like fun facts, news, updates, and giveaway info delivered right to y
               >
                 <label className="space-y-1 text-sm font-semibold text-white/90">
                   Email address
-                  <div className="mt-1 flex gap-2">
+                  <div className="mt-1 flex flex-col gap-2 sm:flex-row">
                     <input
                       type="email"
                       name="EMAIL"
@@ -261,7 +261,7 @@ If you’d like fun facts, news, updates, and giveaway info delivered right to y
                     />
                     <button
                       type="submit"
-                      className="shrink-0 inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-amber-50"
+                      className="w-full shrink-0 inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-amber-50 sm:w-auto"
                     >
                       Subscribe
                     </button>
