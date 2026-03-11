@@ -161,7 +161,7 @@ If you’d like fun facts, news, updates, and giveaway info delivered right to y
                     Facebook
                   </a>
                   <a
-                    href="https://www.instagram.com/adalaba2017/"
+                    href="https://www.instagram.com/author_anneliese_dalaba?igsh=dGFkYW81eHlubzI4&utm_source=qr"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded-full bg-white/90 px-3 py-1 text-sm font-semibold text-slate-800 ring-1 ring-slate-200 transition hover:-translate-y-0.5 hover:bg-white"
