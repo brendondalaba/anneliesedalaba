@@ -249,22 +249,24 @@ If you’d like fun facts, news, updates, and giveaway info delivered right to y
                 target="_blank"
                 className="space-y-4"
               >
-                <label className="space-y-2 text-sm font-semibold text-white/90">
+                <label className="space-y-1 text-sm font-semibold text-white/90">
                   Email address
-                  <input
-                    type="email"
-                    name="EMAIL"
-                    required
-                    placeholder="you@example.com"
-                    className="w-full rounded-xl border border-white/10 bg-white/10 px-4 py-3 text-base font-medium text-white placeholder:text-white/60 shadow-inner focus:border-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-200/70"
-                  />
+                  <div className="mt-1 flex gap-2">
+                    <input
+                      type="email"
+                      name="EMAIL"
+                      required
+                      placeholder="you@example.com"
+                      className="min-w-0 flex-1 rounded-full border border-white/10 bg-white/10 px-4 py-3 text-base font-medium text-white placeholder:text-white/60 shadow-inner focus:border-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-200/70"
+                    />
+                    <button
+                      type="submit"
+                      className="shrink-0 inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-amber-50"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
                 </label>
-                <button
-                  type="submit"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-amber-50"
-                >
-                  Subscribe
-                </button>
                 <p className="text-xs leading-5 text-white/70">
                   No spam--just thoughtful updates, launch details, and the
                   occasional giveaway for subscribers.
@@ -274,6 +276,9 @@ If you’d like fun facts, news, updates, and giveaway info delivered right to y
           </div>
         </section>
       </main>
+      <footer className="mt-12 pb-8 text-center text-xs text-slate-400">
+        &copy; {new Date().getFullYear()} Anneliese Dalaba. All rights reserved.
+      </footer>
     </div>
   );
 }
