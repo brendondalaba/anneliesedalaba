@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Anneliese Dalaba | Christian Fiction & Memoir Author",
   description:
     "Faith-filled historical romance and uplifting memoirs by author Anneliese Dalaba. Discover the Arranged Marriage series, new releases, and newsletter updates.",
+  icons: {
+    icon: "/adalaba-tab-icon.png",
+  },
 };
 
 export default function RootLayout({
