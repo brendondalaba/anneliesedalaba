@@ -182,7 +182,7 @@ If you’d like fun facts, news, updates, and giveaway info delivered right to y
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <h2 className="font-display text-3xl text-slate-900">
-                The Arranged Marriage series
+                The Arranged Marriage Series
               </h2>
               <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-white">
                 <span aria-hidden>★</span> Award-winning
