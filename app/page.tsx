@@ -103,7 +103,14 @@ export default function Home() {
       <div className="pointer-events-none absolute inset-x-0 -top-16 h-[32rem] bg-gradient-to-br from-amber-100/70 via-rose-50/50 to-sky-100/60 blur-3xl" />
       <main className="relative mx-auto max-w-6xl px-6 pb-20 pt-12 lg:px-10 lg:pt-16">
 
-        {/* â”€â”€ Hero â”€â”€ */}
+        {/* Site Title */}
+        <div className="mb-24 text-center">
+          <p className="text-6xl text-slate-800" style={{ fontFamily: "var(--font-great-vibes)" }}>
+            Anneliese Dalaba
+          </p>
+        </div>
+
+        {/* ── Hero ── */}
         <header className="flex flex-col gap-12 lg:flex-row lg:items-center">
           {/* Text */}
           <div className="flex-1 space-y-6">
