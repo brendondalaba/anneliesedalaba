@@ -105,7 +105,7 @@ export default function Home() {
 
         {/* Site Title */}
         <div className="mb-24 text-center">
-          <p className="text-6xl text-slate-800" style={{ fontFamily: "var(--font-great-vibes)" }}>
+          <p className="whitespace-nowrap text-5xl text-slate-800 sm:text-6xl" style={{ fontFamily: "var(--font-great-vibes)" }}>
             Anneliese Dalaba
           </p>
         </div>
